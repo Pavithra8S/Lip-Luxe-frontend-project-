@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lip-luxe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" class="rel">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f9f9f9;
+        }
+        .product-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .product-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+            padding: 15px;
+        }
+        .product-card h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .product-card p {
+            font-size: 14px;
+            color: #555;
+            margin: 10px 0;
+        }
+        .add-to-cart {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 15px;
+            cursor: pointer;
+            font-size: 14px;
+            text-transform: uppercase;
+            transition: background-color 0.3s;
+        }
+        .add-to-cart:hover {
+            background-color: #444;
+        }
+        .add-to-cart i {
+            font-size: 16px;
+        }
+        .product-card:hover{
+            transform: scale(1.05); 
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            filter: brightness(25%);
+        }
+       .product-card  a{
+        text-decoration: none;
+       }
+       footer {
+           
+            padding: 1rem 0;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+
+        footer a {
+            color: #6c757d;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+.navbar {
+    
+    color:black;
+    padding: 10px 20px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size:40px;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+    margin-left: 5%;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    margin-right: 5%;
+  }
+  
+  .nav-links a {
+    color:black;
+    font-size: 25px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    background-color: #d97ed8;
+  }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+          <a href="#" class="logo">Lip <br>Luxe</a>
+         
+          <ul class="nav-links">
+            <a href="fashionshop.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="category.html">Brands</a>
+            <a href="contact.html">Contact</a>
+            <a href="shop.html">Shop<i class="fa-solid fa-bag-shopping" style="color: #0b0b0b;"></i></a>
+           
+          </ul>
+        </div>
+    
+  
+   <div class="main2">
+    <div class="container my-5">
+        <h2 class="text-center mb-4"style="font-family:Georgia, 'Times New Roman', Times, serif;">Bobbi Brown</h2>
+        
+    
+    <div class="product-container">
+    <div class="product-card">
+           <img src="assets/crushed.avif" alt="Product Image">
+            <p>Crushed Lip Color<br>
+                Playful, effortless color<br>
+                Category: Makeup<br>
+                ₹2450.00 MRP inclusive of all taxes|<br>3.4 g</p>
+          <a href="shop.html" class="href">  <button class="add-to-cart">
+                <i class="fa fa-shopping-cart"></i> Add to Cart
+            </button></a>
+        </div>
+        <div class="product-card">
+           
+            <img src="assets/20.avif" alt="Product Image">
+            <p>Luxe Matte Liquid Lipstick<br>
+                Moisturising matte<br> liquid lipstick
+                <br> ₹4100.00
+                 MRP inclusive of all taxes |
+                6ml</p>
+                <a href="shop.html" class="href"> <button class="add-to-cart">
+                <i class="fa fa-shopping-cart"></i> Add to Cart
+            </button></a>
+        </div>
+        <div class="product-card">
+            
+            <img src="assets/12.avif" alt="Product Image">
+            <p>Crushed Oil-Infused Gloss<br>
+                Hydrating, non-sticky <br>lip gloss
+                6<br>
+                ₹2450.00
+                MRP inclusive of all taxes |<br> 6
+                ml</p>
+                <a href="shop.html" class="href">  <button class="add-to-cart">
+                <i class="fa fa-shopping-cart"></i> Add to Cart
+            </button></a>
+        </div>
+        <div class="product-card">
+           
+            <img src="assets/88.avif" alt="Product Image">
+            <p>Extra Lip Tint<br>
+                Color-enhancing lip balm.<br>
+                Category:Makeup/Skincare
+                8.<br>
+                ₹3100.00 MRP inclusive of all taxes |<br>
+                2.3g</p>
+                <a href="shop.html" class="href"> <button class="add-to-cart">
+                <i class="fa fa-shopping-cart"></i> Add to Cart
+            </button></a>
+        </div>
+    </div>
+    <div class="container my-5">
+        <h2 class="text-center mb-4"style="font-family:Georgia, 'Times New Roman', Times, serif;">Kay Beauty</h2>
+        
+    
+    <div class="product-container">
+    <div class="product-card">
+           <img src="assets/k1.avif" alt="Product Image">
+            <p>Kay Beauty Hydra Creme<br>Lipstick<br>MRP:₹999</p>
+            <a href="shop.html" class="href"> <button class="add-to-cart">
+                <i class="fa fa-shopping-cart"></i> Add to Cart
+            </button></a>
+        </div>
+        <div class="product-card">
+           
+            <img src="assets/k2.avif" alt="Product Image">
+            <p>Kay Beauty Matte Liquid<br>Lipstick<br>MRP:₹960</p>
+            <a href="shop.html" class="href"><button class="add-to-cart">
+                <i class="fa fa-shopping-cart"></i> Add to Cart
+            </button></a>
+        </div>
+        <div class="product-card">
+            
+            <img src="assets/K3.avif" alt="Product Image">
+            <p>Kay Beauty Matteinee Matte <br>Lip Crayon Lipstick<br>MRP:
+                ₹679</p>
+                <a href="shop.html" class="href"> <button class="add-to-cart">
+                <i class="fa fa-shopping-cart"></i> Add to Cart
+            </button></a>
+        </div>
+        <div class="product-card">
+           
+            <img src="assets/K4.avif" alt="Product Image">
+            <p>Kay Beauty<br>Lip Tint<br>MRP:₹809</p>
+            <a href="shop.html" class="href"> <button class="add-to-cart">
+                <i class="fa fa-shopping-cart"></i> Add to Cart
+            </button></a>
+        </div>
+    </div>
+    <div class="container my-5">
+        <h2 class="text-center mb-4"style="font-family:Georgia, 'Times New Roman', Times, serif;">CHANEL</h2>
+        
+    
+    <div class="product-container">
+    <div class="product-card">
+           <img src="assets/CH1.webp" alt="Product Image">
+            <p>ROUGE ALLURE L'EXTRAIT<BR>
+                HIGH-INTENSITY LIP COLOUR<BR>CONCENTRATED RADIANCE AND CARE<BR> REFILLABLE
+                
+                
+                ₹ 5,800</p>
+                <a href="shop.html" class="href"> <button class="add-to-cart">
+                <i class="fa fa-shopping-cart"></i> Add to Cart
+            </button></a>
+        </div>
+        <div class="product-card">
+           
+            <img src="assets/CH2.webp" alt="Product Image">
+            <p>ROUGE COCO BAUME<BR>
+                HYDRATING BEAUTIFYING<BR> TINTED LIP BALM<BR>  BUILDABLE COLOUR<BR>
+            
+                
+                ₹ 4,100</p>
+                <a href="shop.html" class="href"> <button class="add-to-cart">
+                <i class="fa fa-shopping-cart"></i> Add to Cart
+            </button></a>
+        </div>
+        <div class="product-card">
+            
+            <img src="assets/CH3.webp" alt="Product Image">
+            <p>ROUGE ALLURE VELVET<BR>
+                LUMINOUS<BR> MATTE<BR> LIP COLOUR<BR>
+                
+                
+                ₹ 4,750</p>
+                <a href="shop.html" class="href"><button class="add-to-cart">
+                <i class="fa fa-shopping-cart"></i> Add to Cart
+            </button></a>
+        </div>
+        <div class="product-card">
+           
+            <img src="assets/CH4.webp" alt="Product Image">
+            <p>ROUGE COCO FLASH<BR>
+                COLOUR,<BR> SHINE, <BR>INTENSITY IN A FLASH<BR>
+                
+                
+                ₹ 4,750</p>
+                <a href="shop.html" class="href">  <button class="add-to-cart">
+                <i class="fa fa-shopping-cart"></i> Add to Cart
+            </button></a>
+        </div>
+    </div>
+    <div class="container my-5">
+        <h2 class="text-center mb-4"style="font-family:Georgia, 'Times New Roman', Times, serif;">Mac Cosmetics</h2>
+        
+    
+    <div class="product-container">
+    <div class="product-card">
+           <img src="assets/mac1.avif" alt="Product Image">
+            <p>Tons of Teddy Kit <br>($101 Value)<br>$56.25</p>
+            <a href="shop.html" class="href"> <button class="add-to-cart">
+                <i class="fa fa-shopping-cart"></i> Add to Cart
+            </button></a>
+        </div>
+        <div class="product-card">
+           
+            <img src="assets/mac4.avif" alt="Product Image">
+            <p>Golden Girls Mini <br>Lustreglass Lipstick Vault x12 <br>($180 Value)$74.25</p>
+            <a href="shop.html" class="href"> <button class="add-to-cart">
+                <i class="fa fa-shopping-cart"></i> Add to Cart
+            </button></a>
+        </div>
+        <div class="product-card">
+            
+            <img src="assets/mac3.avif" alt="Product Image">
+            <p>Stay Curious Party Crew <br>($147 Value)<br>
+               $67.50</p>
+               <a href="shop.html" class="href"><button class="add-to-cart">
+                <i class="fa fa-shopping-cart"></i> Add to Cart
+            </button></a>
+        </div>
+        <div class="product-card">
+           
+            <img src="assets/mac2.avif" alt="Product Image">
+            <p>Gilded Glamour <br>Best-Sellers Trio<br> ($72 Value)$31.50</p>
+            <a href="shop.html" class="href"> <button class="add-to-cart">
+                <i class="fa fa-shopping-cart"></i> Add to Cart
+            </button></a>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Lipluxe. All rights reserved. <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </div>
+</footer>
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
