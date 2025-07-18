@@ -13,7 +13,7 @@
 
 
 
-![image alt](https://github.com/Pavithra8S/Lip-Luxe-frontend-project-/blob/main/assets/ls3.png)
+![image alt](https://github.com/Pavithra8S/Lip-Luxe-frontend-project-/blob/main/assets/l3.png)
 
 ## 🌟 Features
 
