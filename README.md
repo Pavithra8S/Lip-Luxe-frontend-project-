@@ -3,6 +3,18 @@
 
 *Lip Luxe* is a vibrant front-end website designed to showcase and sell high-end lipstick brands. Built with HTML, CSS, and a dash of JavaScript plugins (via CDNs), it provides a smooth, interactive shopping experience.
 
+
+![image alt](https://github.com/Pavithra8S/Lip-Luxe-frontend-project-/blob/main/assets/ls1.png)
+
+
+
+![image alt](https://github.com/Pavithra8S/Lip-Luxe-frontend-project-/blob/main/assets/ls2.png)
+
+
+
+
+![image alt](https://github.com/Pavithra8S/Lip-Luxe-frontend-project-/blob/main/assets/ls3.png)
+
 ## 🌟 Features
 
 - Brand catalog with product previews
